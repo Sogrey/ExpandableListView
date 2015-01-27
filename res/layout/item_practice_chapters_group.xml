@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+    android:gravity="center_vertical"
+    android:paddingTop="5dp" 
+    >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+        android:background="@color/white"
+    android:gravity="center_vertical"
+    >
+    <LinearLayout
+        android:paddingLeft="10dp"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+        <View
+            android:id="@+id/img_item_practice_chapters_group_top"
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/between_line" 
+            android:visibility="invisible"/>
+     <ImageView
+        android:id="@+id/img_item_practice_chapters_group_expand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_item_practice_chapters_group_collapse" 
+        />
+     <View
+            android:id="@+id/img_item_practice_chapters_group_bottom"
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/between_line" 
+            android:visibility="invisible"/>
+</LinearLayout>
+    <TextView
+        android:id="@+id/txt_item_practice_chapters_group_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="第一章 有理数"
+        android:textColor="@color/txt_practice_type_listitem_label"
+        android:textSize="@dimen/frontsize_normal" 
+        android:paddingLeft="20dp"
+        android:paddingRight="30dp"
+        />
+
+    <TextView
+        android:id="@+id/txt_item_practice_chapters_group_times"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="10dp"
+        android:textColor="@color/txt_practice_type_listitem_times"
+        android:text="" />
+    
+            <ImageView
+        android:id="@+id/img_item_practice_chapters_group_edit"
+              android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:background="@drawable/ic_begin_answer" 
+        android:layout_margin="20dp"/>
+
+</LinearLayout>
+</LinearLayout>

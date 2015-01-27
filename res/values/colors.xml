@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="drak_black">#33000000</color>
+    <color name="red">#ffff0000</color>
+    <color name="dark_red">#ffcc0000</color>
+    <color name="green">#ff00ff00</color>
+    <color name="yellow">#ffffff00</color>
+    <color name="dark_green">#ff16b31a</color>
+    <color name="blue">#ff0000ff</color>
+    <color name="gray">#ffaaaaaa</color>
+    <color name="dark_gray">#ff777574</color>
+    <color name="transparent">#00000000</color>
+    <color name="tint_normaluse_battery">#ff17a221</color>
+    
+        <color name="left_txt_normal">#ff7d92ae</color>
+    <color name="left_txt_selected">#ff59d5fd</color>
+    
+     <color name="txt_label">#ff333333</color>
+    
+        <color name="home_backcolor">#ff30a3f2</color>
+    <color name="head_backcolor">#ff13b7ec</color>
+    <color name="left_backcolor_normal">#ff3d526f</color>
+    <color name="left_backcolor_select">#ff2e4565</color>
+    <color name="left_backcolor_between">#ff495f7e</color>
+    <color name="right_subject_backcolor_between">#ff1f3c65</color>
+    <color name="exam_list_backcolor_between">#ffdddddd</color>
+    <color name="right_backcolor">#fff2f2f2</color>
+    <color name="subject_backcolor">#ff2e4565</color>
+    
+    <color name="head_subject_term">#ff465e80</color>
+    
+    <color name="txt_practice_type_listitem_label">#ff333333</color>
+    <color name="txt_practice_type_listitem_labe2">#ff666666</color>
+    <color name="txt_practice_type_listitem_times">#ff999999</color>
+    
+    <color name="txt_report_times_count">#ff222222</color>
+    
+    <color name="dark_green_report_index_right">#ff176500</color>
+    
+    <color name="report_backgroud">#fff0f0f0</color>
+    <color name="btn_bottom_report_backgroud_normal">#ff82d3ee</color>
+    <color name="back_bottom_report_backgroud_normal">#ff13b7ea</color>
+    
+    <color name="btn_exam_head_backcolcr">#ffd7d7d7</color>
+    <color name="btn_exam_title_backcolcr">#ffececec</color>
+    <color name="btn_exam_type_backcolcr">#ffd3d3d3</color>
+    <color name="btn_exam_type_backcolcr_select">#ffd8d8d8</color>
+    <color name="btn_exam_submit_backcolor">#ffb5cbf8</color>
+    <color name="btn_exam_question_backcolor">#ffe4e4e4</color>
+    <color name="btn_exam_preview_typebutton_backgroudclocor_normal">#ffe5e5e5</color>
+    <color name="btn_exam_preview_typebutton_backgroudclocor_selecteed">#ff50d1f3</color>
+    <color name="btn_exam_preview_startexam_backgroundcolor">#ff3399cc</color>
+    <color name="bg_exam_startexam_quesTitle_backgroundcolor">#fff9f9f9</color>
+    
+    <color name="tit_prasing_title_backgroud">#ffe5e5e5</color>
+    <color name="txt_blue">#ff11a9da</color>
+    <color name="txt_green">#ff0d9e01</color>
+    <color name="txt_exam_selecte_bg">#ffcccccc</color>
+    <color name="txt_exam_preview_info_btn">#ff999999</color>
+    
+    
+    
+</resources>

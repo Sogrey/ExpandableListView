@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <dimen name="frontsize_ssslarge">108sp</dimen>
+    <dimen name="frontsize_sslarge">72sp</dimen>
+    <dimen name="frontsize_superlarge">48sp</dimen>
+    <dimen name="frontsize_large">24sp</dimen>
+    <dimen name="frontsize_mini_large">20sp</dimen>
+    <dimen name="frontsize_tinylarge">21sp</dimen>
+    <dimen name="frontsize_normal">18sp</dimen>
+    <dimen name="frontsize_small">15sp</dimen>
+    <dimen name="frontsize_supersmall">12sp</dimen>
+</resources>

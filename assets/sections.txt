@@ -1,0 +1,138 @@
+﻿{
+  "sections" : [ {
+    "id" : 17674,
+    "section_code" : "11",
+    "section_name" : "第四单元  生物圈中的人",
+    "parent_code" : "00"
+  }, {
+    "id" : 17675,
+    "section_code" : "1101",
+    "section_name" : "第一章 人的由来",
+    "parent_code" : "11"
+  }, {
+       "id" : 17676,
+    "section_code" : "110101",
+    "section_name" : "第一节 人类的起源和发展",
+    "parent_code" : "1101"
+  }, {
+    "id" : 176761,
+    "section_code" : "11010101",
+    "section_name" : "第一小节 人类的起源和发展（1）",
+    "parent_code" : "110101"
+  }, {
+    "id" : 176762,
+    "section_code" : "11010102",
+    "section_name" : "第二小节 人类的起源和发展（2）",
+    "parent_code" : "110101"
+  }, {
+    "id" : 17677,
+    "section_code" : "110102",
+    "section_name" : "第二节 人的生殖",
+    "parent_code" : "1101"
+  }, {
+    "id" : 176763,
+    "section_code" : "11010201",
+    "section_name" : "第一小节 人的生殖（1）",
+    "parent_code" : "110102"
+  }, {
+    "id" : 176764,
+    "section_code" : "11010202",
+    "section_name" : "第二小节 人的生殖（2）",
+    "parent_code" : "110102"
+  }, {
+    "id" : 17678,
+    "section_code" : "110103",
+    "section_name" : "第三节 青春期",
+    "parent_code" : "1101"
+  }, {
+    "id" : 176765,
+    "section_code" : "11010301",
+    "section_name" : "第一小节 青春期（1）",
+    "parent_code" : "110103"
+  }, {
+    "id" : 176766,
+    "section_code" : "11010302",
+    "section_name" : "第二小节 青春期（2）",
+    "parent_code" : "110103"
+  }, {
+    "id" : 17679,
+    "section_code" : "1102",
+    "section_name" : "第二章 人体的营养",
+    "parent_code" : "11"
+  }, {
+    "id" : 17680,
+    "section_code" : "110201",
+    "section_name" : "第一节 食物中的营养物质",
+    "parent_code" : "1102"
+  }, {
+    "id" : 17681,
+    "section_code" : "110202",
+    "section_name" : "第二节 消化和吸收",
+    "parent_code" : "1102"
+  }, {
+    "id" : 17682,
+    "section_code" : "110203",
+    "section_name" : "第三节 关注合理营养与食品安全",
+    "parent_code" : "1102"
+  }, {
+    "id" : 17683,
+    "section_code" : "1103",
+    "section_name" : "第三章 人体的呼吸",
+    "parent_code" : "11"
+  }, {
+    "id" : 17684,
+    "section_code" : "110301",
+    "section_name" : "第一节 呼吸道对空气的处理",
+    "parent_code" : "1103"
+  }, {
+    "id" : 17685,
+    "section_code" : "110302",
+    "section_name" : "第二节 发生在肺内的气体交换",
+    "parent_code" : "1103"
+  }, {
+    "id" : 17686,
+    "section_code" : "110303",
+    "section_name" : "第三节 空气质量与健康",
+    "parent_code" : "1103"
+  }, {
+    "id" : 17687,
+    "section_code" : "1104",
+    "section_name" : "第四章 人体内物质的运输",
+    "parent_code" : "11"
+  }, {
+    "id" : 17688,
+    "section_code" : "110401",
+    "section_name" : "第一节 物质运输的载体",
+    "parent_code" : "1104"
+  }, {
+    "id" : 17689,
+    "section_code" : "110402",
+    "section_name" : "第二节 物质运输的管道",
+    "parent_code" : "1104"
+  }, {
+    "id" : 17690,
+    "section_code" : "110403",
+    "section_name" : "第三节 物质运输的途径",
+    "parent_code" : "1104"
+  }, {
+    "id" : 17691,
+    "section_code" : "110404",
+    "section_name" : "第四节 关心心血管健康",
+    "parent_code" : "1104"
+  }, {
+    "id" : 17692,
+    "section_code" : "1105",
+    "section_name" : "第五章 人体内废物的排出",
+    "parent_code" : "11"
+  }, {
+    "id" : 17693,
+    "section_code" : "110501",
+    "section_name" : "第一节 尿的形成和排出",
+    "parent_code" : "1105"
+  }, {
+    "id" : 17694,
+    "section_code" : "110502",
+    "section_name" : "第二节 汗液的形成和排出",
+    "parent_code" : "1105"
+  } ]
+}
