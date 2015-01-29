@@ -15,45 +15,15 @@
     "section_name" : "第一节 人类的起源和发展",
     "parent_code" : "1101"
   }, {
-    "id" : 176761,
-    "section_code" : "11010101",
-    "section_name" : "第一小节 人类的起源和发展（1）",
-    "parent_code" : "110101"
-  }, {
-    "id" : 176762,
-    "section_code" : "11010102",
-    "section_name" : "第二小节 人类的起源和发展（2）",
-    "parent_code" : "110101"
-  }, {
     "id" : 17677,
     "section_code" : "110102",
     "section_name" : "第二节 人的生殖",
     "parent_code" : "1101"
   }, {
-    "id" : 176763,
-    "section_code" : "11010201",
-    "section_name" : "第一小节 人的生殖（1）",
-    "parent_code" : "110102"
-  }, {
-    "id" : 176764,
-    "section_code" : "11010202",
-    "section_name" : "第二小节 人的生殖（2）",
-    "parent_code" : "110102"
-  }, {
     "id" : 17678,
     "section_code" : "110103",
     "section_name" : "第三节 青春期",
     "parent_code" : "1101"
-  }, {
-    "id" : 176765,
-    "section_code" : "11010301",
-    "section_name" : "第一小节 青春期（1）",
-    "parent_code" : "110103"
-  }, {
-    "id" : 176766,
-    "section_code" : "11010302",
-    "section_name" : "第二小节 青春期（2）",
-    "parent_code" : "110103"
   }, {
     "id" : 17679,
     "section_code" : "1102",

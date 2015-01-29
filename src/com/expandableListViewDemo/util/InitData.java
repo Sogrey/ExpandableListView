@@ -39,9 +39,7 @@ public class InitData {
 											CharperBean charper2 = listcharper.get(m);
 											if (charper2.getParent_code().equals(
 													charper1.section_code)) {
-//												if (null!=charper2) {
 													child2.add(charper2);
-//												}
 											}
 										}
 										if (null!=child2&&0!=child2.size()) {
