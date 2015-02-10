@@ -22,6 +22,7 @@ import android.widget.BaseExpandableListAdapter;
 import android.widget.ExpandableListView;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.expandablelistviewdemo.R;
 import com.expandableListViewDemo.javaBean.CharperBean;
@@ -152,6 +153,7 @@ public class MorelevelAdapter extends BaseExpandableListAdapter {
 				//  完善点击事件，获取题目，前往答题
 				LogWrapper.e("父章节",list.get(groupPosition).getSection_name());
 //				queryQuest( list.get(groupPosition).getId(),list.get(groupPosition).getSection_name(),null);
+				Toast.makeText(context, list.get(groupPosition).getId()+"==>"+list.get(groupPosition).getSection_name(), Toast.LENGTH_SHORT).show();
 			}
 		});
 		return view;
@@ -235,6 +237,8 @@ public class MorelevelAdapter extends BaseExpandableListAdapter {
 					LogWrapper.e("父章节",list.get(groupPosition).getSection_name());
 //					queryQuest( list.get(groupPosition).getChildren().get(childPosition).getId(),
 //							list.get(groupPosition).getChildren().get(childPosition).getSection_name(),null);
+					Toast.makeText(context, list.get(groupPosition).getChildren().get(childPosition).getId()+"==>"
++list.get(groupPosition).getChildren().get(childPosition).getSection_name(), Toast.LENGTH_SHORT).show();
 				}
 			});
 			return view;
