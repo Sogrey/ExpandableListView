@@ -3,13 +3,13 @@ package com.expandableListViewDemo.javaBean;
 import java.util.List;
 
 /**
- * ÕÂ½Ú
+ * 
  * @author Administrator
  *
  */
 public class CharperBean {
 
-//	"id":1840,"section_name":"ÈëÑ§½ÌÓı","parent_code":"00","section_code":"11"
+//	"id":1840,"section_name":"ç¬¬ä¸€ç« ","parent_code":"00","section_code":"11"
 	public int id;
 	public String section_name;
 	public String parent_code;

@@ -19,44 +19,50 @@ public class InitData {
 		ArrayList<CharperBean> list = new ArrayList<CharperBean>();
 		if (null != object) {
 			if (object != null) {
-				ArrayList<CharperBean> listcharper = GetSectionsList(object);// ËùÓĞÕÂ½ÚÁĞ±í
-				// ÌáÈ¡¸¸ÕÂ½Ú
+				ArrayList<CharperBean> listcharper = GetSectionsList(object);// è§£æJSONå¯¦é«”
+				// æ•¸æ“šé‡æ’
 				for (int i = 0; i < listcharper.size(); i++) {
 					CharperBean item = listcharper.get(i);
-					if ("00".equals(item.getParent_code())) {// ¸¸ÕÂ½Ú
+					if ("00".equals(item.getParent_code())) {// æ ¹ç¯€é»
 						List<CharperBean> child = new ArrayList<CharperBean>();
 						for (int j = 0; j < listcharper.size(); j++) {
 							CharperBean charper = listcharper.get(j);
 							if (charper.getParent_code().equals(
 									item.section_code)) {
 								List<CharperBean> child1 = new ArrayList<CharperBean>();
-								for (int k = 0; k< listcharper.size(); k++) {
+								for (int k = 0; k < listcharper.size(); k++) {
 									CharperBean charper1 = listcharper.get(k);
 									if (charper1.getParent_code().equals(
 											charper.section_code)) {
 										List<CharperBean> child2 = new ArrayList<CharperBean>();
-										for (int m = 0; m< listcharper.size(); m++) {
-											CharperBean charper2 = listcharper.get(m);
-											if (charper2.getParent_code().equals(
-													charper1.section_code)) {
-													child2.add(charper2);
+										for (int m = 0; m < listcharper.size(); m++) {
+											CharperBean charper2 = listcharper
+													.get(m);
+											if (charper2
+													.getParent_code()
+													.equals(charper1.section_code)) {
+												child2.add(charper2);
 											}
 										}
-										if (null!=child2&&0!=child2.size()) {
+										if (null != child2
+												&& 0 != child2.size()) {
 											charper1.setChildren(child2);
-										}else charper1.setChildren(null);
+										} else
+											charper1.setChildren(null);
 										child1.add(charper1);
 									}
 								}
-								if (null!=child1&&0!=child1.size()) {
-								charper.setChildren(child1);
-								}else charper.setChildren(null);
+								if (null != child1 && 0 != child1.size()) {
+									charper.setChildren(child1);
+								} else
+									charper.setChildren(null);
 								child.add(charper);
 							}
 						}
-						if (null!=child&&0!=child.size()) {
+						if (null != child && 0 != child.size()) {
 							item.setChildren(child);
-						}else item.setChildren(null);
+						} else
+							item.setChildren(null);
 						list.add(item);
 					}
 				}
@@ -64,31 +70,51 @@ public class InitData {
 		}
 		return list;
 	}
-private static boolean hasIt(List<CharperBean> child,CharperBean item){
-	for (int i = 0; i < child.size(); i++) {
-		if (item.getId()==child.get(i).getId()) {
-			return true;
+
+	/**
+	 * åˆ¤æ–·å­åˆ—è¡¨ä¸­æ˜¯å¦åŒ…å«æŸé …
+	 * 
+	 * @author Sogrey
+	 * @date 2016å¹´1æœˆ17æ—¥ä¸Šåˆ10:16:44
+	 * @param child
+	 *            åˆ—è¡¨æ•¸æ“š
+	 * @param item
+	 *            æŸé …æ•¸æ“š
+	 * @return
+	 */
+	private static boolean hasIt(List<CharperBean> child, CharperBean item) {
+		for (int i = 0; i < child.size(); i++) {
+			if (item.getId() == child.get(i).getId()) {
+				return true;
+			}
 		}
+		return false;
 	}
-	return false;
-}
+
+	/**
+	 * è§£æJSONå¯¦é«”
+	 * 
+	 * @author Sogrey
+	 * @date 2016å¹´1æœˆ17æ—¥ä¸Šåˆ10:15:08
+	 * @param object
+	 * @return
+	 */
 	private static ArrayList<CharperBean> GetSectionsList(JSONObject object) {
 		ArrayList<CharperBean> list = new ArrayList<CharperBean>();
 		CharperBean sectionsBean;
 		JSONArray array;
 		try {
 			array = object.getJSONArray("sections");
-			// LogWrapper.e("JSONArray", "JSONArray ³¤¶È=" + array.length());
 			for (int i = 0; i < array.length(); i++) {
 				JSONObject array2Object = array.getJSONObject(i);
 				sectionsBean = new CharperBean();
 				sectionsBean.setId(array2Object.optInt("id"));// ID
 				sectionsBean.setSection_code(array2Object
-						.optString("section_code"));// ÕÂ½Ú´úÂë
+						.optString("section_code"));// çµé»CODE
 				sectionsBean.setSection_name(array2Object
-						.optString("section_name"));// ÕÂ½ÚÃû³Æ
+						.optString("section_name"));// çµé»å
 				sectionsBean.setParent_code(array2Object
-						.optString("parent_code"));// ÕÂ½Ú¸¸´úÂë
+						.optString("parent_code"));// çˆ¶ç¯€é»CODE
 				list.add(sectionsBean);
 			}
 			// LogWrapper.e(TAG, list.toString());

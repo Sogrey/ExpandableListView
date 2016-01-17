@@ -5,7 +5,7 @@ import android.util.Log;
 import com.example.expandablelistviewdemo.BuildConfig;
 
 /**
- * 对LogCat进行封装，只在调试时输出日志
+ * LOG鏃ヨ獙志
  * 
  * @author Sogrey
  * 

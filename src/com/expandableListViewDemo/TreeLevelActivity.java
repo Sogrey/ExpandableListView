@@ -34,7 +34,7 @@ public class TreeLevelActivity extends Activity {
 
 	private void init() {
 
-		String fileName = "sections.txt";// assetsÏÂÎÄ¼þ
+		String fileName = "sections.txt";// assetsæ–‡ä»¶
 		String ret = "";
 		JSONObject object = null;
 		try {
