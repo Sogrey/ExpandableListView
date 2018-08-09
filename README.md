@@ -12,6 +12,8 @@
  - 展示樹級列表，數據不宜太多，級別不宜太深，最多三級為宜
  - ListView嵌套性能有所降低
 
+由于以上不足，此项目已废弃，请移步 [TreeDataView]{https://github.com/Sogrey/TreeDataView}
+
 ## License
 
   Copyright 2014-2016 [Sogrey](https://github.com/Sogrey).
